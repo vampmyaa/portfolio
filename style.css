@@ -1,9 +1,9 @@
 :root {
     --header-grad: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
-    --accent: #fbbf24;
     --bg-main: #0a0f1e;
     --bg-card: #ffffff;
-    --primary: #6366f1;
+    --primary: #059669;  
+    --accent: #10b981;
     --text-main: #1e293b;
     --text-muted: #64748b;
 
@@ -109,7 +109,7 @@ h2::before {
 }
 
 .skills span {
-    background: #f1f5f9;
+    background: #f0fdf4
     color: var(--primary);
     padding: 8px 16px;
     border-radius: 8px;
