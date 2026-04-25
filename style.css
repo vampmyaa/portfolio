@@ -1,12 +1,11 @@
 :root {
+    --header-grad: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+    --accent: #fbbf24;
     --bg-main: #0a0f1e;
     --bg-card: #ffffff;
     --primary: #6366f1;
-    --accent: #06b6d4;
     --text-main: #1e293b;
     --text-muted: #64748b;
-    --header-grad: linear-gradient(135deg, #0f172a 0%, #312e81 100%);
-}
 
 * {
     margin: 0;
