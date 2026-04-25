@@ -16,7 +16,7 @@
 
 body {
     font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-    background-color: #e6edf3;
+    background-color: linear-gradient(180deg, #212154 0%, #0f172a 100%);
     color: var(--text-main);
     line-height: 1.6;
 }
