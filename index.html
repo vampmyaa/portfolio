@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Крушельницька Анастасія</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+
+<h1>Крушельницька Анастасія</h1>
+
+<nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+<a href="#about">Про мене</a>
+<a href="#education">Освіта</a>
+<a href="#skills">Навички</a>
+<a href="#projects">Проєкти</a>
+<a href="#contacts">Контакти</a>
+</nav>
+
+<div class="profile">
+<img src="Знімок екрана 2026-02-28 152540.png" alt="Моє фото">
+</div>
+
+</header>
+
+
+<section id="about">
+<h2>Про мене</h2>
+
+<p>
+Я – студентка спеціальності «Кібербезпека». 
+Цікавлюся інформаційною безпекою, мережами та розробкою програмного забезпечення.
+</p>
+
+</section>
+
+
+<section id="education">
+
+<h2>Освіта</h2>
+
+<p>
+Національний університет «Львівська політехніка»  
+<br>
+Спеціальність: Кібербезпека  
+<br>
+2 курс
+</p>
+
+</section>
+
+
+<section id="skills">
+
+<h2>Навички</h2>
+
+<div class="skills">
+
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>Python</span>
+<span>C#</span>
+<span>Wireshark</span>
+<span>Linux</span>
+<span>Windows Terminal</span>
+<span>English B2</span>
+
+</div>
+
+</section>
+
+
+<section id="projects">
+
+<h2>Проєкти</h2>
+
+<div class="projects">
+
+<div class="card">
+<h3>Packet Lost</h3>
+<p>
+Карткова гра у сфері кібербезпеки: розробка концепції та UI/UX дизайн.
+</p>
+</div>
+
+<div class="card">
+<h3>HR Застосунок</h3>
+<p>
+Курсовий проєкт з проєктування бази даних для відділу кадрів.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<section id="reviews">
+<h2>Відгуки</h2>
+<div id="reviews-container" class="projects">
+<!-- Відгуки будуть завантажені через API -->
+</div>
+</section>
+
+<section id="contacts">
+
+<h2>Контакти</h2>
+
+<p>Email: anastasiia.krushelnytska.kb.2024@lpnu.ua</p>
+
+<h3>Напишіть мені</h3>
+
+<form>
+
+<input type="text" placeholder="Ім'я">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Повідомлення"></textarea>
+
+<button>Відправити</button>
+
+</form>
+
+</section>
+
+
+<footer>
+
+© 2026 Крушельницька Анастасія
+<div id="browser-info" style="margin-top: 15px; font-size: 0.8rem; text-align: left; opacity: 0.8;"></div>
+</footer>
+
+<!-- Модальне вікно -->
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2>Залиште свої дані</h2>
+        <!-- Formspree endpoint -->
+        <form action="https://formspree.io/f/mwvwlzea" method="POST">
+            <input type="text" name="name" placeholder="Ім'я" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="phone" placeholder="Номер телефону" required>
+            <textarea name="message" placeholder="Повідомлення" rows="4" required></textarea>
+            <button type="submit">Відправити</button>
+        </form>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
